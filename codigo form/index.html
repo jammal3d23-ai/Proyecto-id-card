@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./interfaz principal/index.html">
+    <link rel="stylesheet" href="./interfaz servicios/">
+    <link rel="stylesheet" href="./interfaz impacto/index.html">
+    <link rel="stylesheet" href="./login/index.html">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="loginForm">
+        <div class="header">
+            <h1>Tarjeta Digital</h1>
+            <span>Accede con tu identificación inteligente</span>
+            <p class="platform-name">Plataforma de identidad digital de GE</p>
+        </div>
+
+        <div class="form-group">
+            <label for="username"><i class="fas fa-user"></i>  ID Usuario</label>
+            <input type="text" id="username" placeholder="Ingrese su identificación" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password"><i class="fas fa-lock"></i> Contraseña</label>
+            <input type="password" id="password" placeholder="••••••••" required>
+        </div>
+
+        <div class="form-options">
+            <div class="checkbox-container">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Recordar mi sesión</label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn-submit">Iniciar sesión</button>
+        <button type="button" class="btn-qr"><i class="fas fa-qrcode"></i> Ingresar con QR</button>
+
+        <div class="footer">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+            <a href="#">¿Necesitas ayuda?</a>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
