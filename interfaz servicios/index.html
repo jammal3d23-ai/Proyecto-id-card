@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Plataforma Inteligente de Servicios Digitales</h1>
+
+        <div class="header-icons">
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+
+    <!-- Tarjeta Digital -->
+    <section class="card-user">
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/120" alt="usuario">
+        </div>
+
+        <div class="info">
+            <h2>Antonio Bibang Sima</h2>
+            <p>ID: GEQ-2026-0001</p>
+            <p>Institución: "INSTTIC"</p>
+            <p>Edad:"25"</p>
+            <p>Domicillo: Paraiso "BLOQUE "C" N23"</p>
+            <p>Fecha de renovacion de credenciales 2031</p>
+            <p>Historial medico: "Paciente Asintomatico"</p>
+            <p>Antecedentes penales:"Normal y Corriente"</p>
+            <p>Profesion:"Informatico(DAW)"</p>
+            <p class="status">"Activo"</p>
+
+            <button onclick="mostrarQR()">
+                Mostrar QR
+            </button>
+        </div>
+
+        <div id="qrBox" class="qr-box">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=GEQ-2026-0001">
+        </div>
+
+    </section>
+
+    <!-- Servicios -->
+    <section class="services">
+
+        <div class="service-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Educación</h3>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-wallet"></i>
+            <h3>Pagos</h3>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Salud</h3>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-bus"></i>
+            <h3>Transporte</h3>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-building"></i>
+            <h3>Gobierno</h3>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Seguridad</h3>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-briefcase"></i>
+            <h3>Empleo</h3>
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Estadísticas</h3>
+        </div>
+
+    </section>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+
+        <div class="stat-card">
+            <h2>15.240</h2>
+            <p>Usuarios</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>8.560</h2>
+            <p>Estudiantes</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>5.430</h2>
+            <p>Pagos</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>32.000</h2>
+            <p>Accesos</p>
+        </div>
+
+    </section>
+
+    </main>
+
+    </div>
+
+</body>
+
+</html>
